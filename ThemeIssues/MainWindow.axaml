@@ -14,6 +14,6 @@
     </Style>
   </Window.Styles>
   <StackPanel Orientation="Horizontal" Name="mContentPanel">
-    <Button Name="mButton1" Content="Button 1" Foreground="{DynamicResource TextBrush}"/>
+    <Button Content="Button 1" Foreground="{DynamicResource TextBrush}"/>
   </StackPanel>
 </Window>

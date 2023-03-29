@@ -1,9 +1,6 @@
 using Avalonia.Controls;
-using Avalonia.Controls.Primitives;
 using Avalonia.Input;
 using Avalonia.Media;
-using Avalonia.Styling;
-using Avalonia.Threading;
 
 namespace ThemeIssues
 {
@@ -33,7 +30,5 @@ namespace ThemeIssues
                 this.Styles.Resources["TextColor"] = Color.FromRgb(0, 0, 255);
             }
         }
-
-        ButtonGroup mButtonGroup;
     }
 }
